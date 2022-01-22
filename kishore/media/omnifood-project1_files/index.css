@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#fdf2e9;
+}
+.logo {
+    width: 8em;
+
+}
+.navigation{
+    display: flex;
+    column-gap: 5em;
+    padding-left: 4em;
+}
+.navigation-list{
+    list-style: none;
+    
+}
+.navigation-list a:hover{
+    color: lightcoral;
+}
+.navigation-list a{
+    text-decoration: none;
+}
+.navigation-list button {
+    color: orange;
+}
+.hero-container{
+    background-color:#fdf2e9;
+
+}
+.section-hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0 2em;
+
+}
+.image img{
+max-width:90%;
+
+}
+.hero-lists{
+    display: flex;
+    column-gap: 2em;
+}
+.hero-lists{
+    list-style: none;
+
+
+}
+.bu{
+    background-color: orange;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 28px;   ;
+}
+.hero-lists{
+display: flex;
+
+}
+.image{
+    display: flex;
+}
+.customers-ima{
+    border-radius: 50%;
+    width: 4em;
+    margin-right: -1.5em;
+    border: 3px solid white;
+    float: left;
+    
+}
+.customer-text{
+
+
+}
+.customerbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.test{
+    color: orange;
+}
+
+.Start{
+    color:white;
+    padding: 1em;
+    background-color: orange;
+    border-radius:2em;
+
+}
+.Start1{
+    color:black;
+    padding: 1em;
+    background-color: white;
+    border-radius: 2em;
+}
+h3{
+
+
+text-align: center;
+}
+
+
+.featuressection{
+margin-top: 3em;
+margin:0 5em ;
+
+}
+.how-it-works{
+    margin-top: 3em;
+margin:0 5em ;
+}
+.customer-image{
+    display: flex;
+    column-gap: 3em;
+    text-align: center;
+    padding-left: 15em;
+
+
+}
+.customer-image img{
+    width: 10%;
+}
+h4{
+    text-align:left;
+    color:brown;
+}
+.testbox{
+
+height: 2em;
+font-size: 4em;
+}
+
+.cellphone{
+    margin-top: 3em;
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+
+.serial{
+font-weight :900;
+font-size:4em ;
+color:bisque;
+
+}
+.tagline{
+font-weight:300;
+font-size:3em ;
+
+    
+}
+.paragraph{
+font-weight: 500;
+font-size: 2em;
+
+}
+.boxphone{
+width: 30%;
+align-items: center;
+justify-content: center;
+max-width: centre;
+margin: 0rem 5rem;
+
+
+
+}
+.hero{
+font-weight: 900;
+font-size: 4em;
+color: bisque;
+
+
+}
+.work{
+font-size: 3em;
+font-weight: bold;
+
+}
+
+
+.line{
+font-weight: 500;
+font-size: 2em;
+
+}
+
+.subject{
+    font-size: 4em;
+    font-weight:900;
+    color: bisque;
+}
+
+.movie{
+font-weight:300;
+font-size: 3em;
+
+}
+.life{
+font-weight: 300;
+font-size: 2em;
+
+}
+
+
+.meal{
+    /* margin-top: 10em; */
+    margin: 10em 6em;
+}
+.meal-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:0 3em;
+    column-gap: 2em;
+}
+.meal-img1 img{
+    width:100%;
+}
+.meal-img2 img{
+    width:100%;
+}
+
+
+.list{
+color: black;
+font-weight: 400;
+text-align:center ;
+
+}
+.main{
+    color: brown;
+text-align:center ;
+}
+
+.section{
+    color:black;
+    font-weight: 100;
+    font-size: 20% 20%;
+    background-color: green;
+}
+.meal-ul li{
+    line-height: 3rem;
+    font-size: 15rm;
+    font-weight: 700;
+}
+.Vegan{
+    /* color: greenyellow; */
+    font-weight: 600;
+    border-radius: 30% 30%;
+    background-color: greenyellow;
+    font-size: 15rm;
+}
+.meal-text-containe{
+
+    color: black;
+    font-weight: 300;
+}
+.paleo{
+    color: black;
+    font-weight: 100;
+    border-radius: 30% 30%;
+    background-color: yellow;
+}
+li{
+    list-style: none;
+}
+.back{
+font-size: 2em;
+font: height 2px;
+font-weight: 15px;
+
+
+}
